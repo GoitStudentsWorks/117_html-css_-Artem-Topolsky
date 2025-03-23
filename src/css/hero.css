@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  padding: 260px 0 302px 0;
+  padding: 260px 0 302px;
   margin: 0 auto;
   background-image: linear-gradient(
       360deg,
@@ -126,9 +126,6 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .container-hero {
-    padding: 225px 219px 225px 220px;
-  }
   .hero {
     background-image: linear-gradient(
         360deg,

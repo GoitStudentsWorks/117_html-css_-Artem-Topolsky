@@ -1,0 +1,120 @@
+/* #region mobile */
+.about-section {
+    position: relative;
+    z-index: 1;
+    margin-top: -60px;
+    padding-bottom: 80px;
+}
+
+.about-content {
+    background-color: #fbfbfb;
+    border-radius: 28px;
+    border: none;
+}
+
+.about-text-box {
+    padding: 40px 20px;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    max-width: 272px;
+    margin-bottom: 40px;
+}
+
+.about-text-descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    max-width: 272px;
+    margin-bottom: 20px;
+}
+
+.about-text-offer {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #040306;
+    max-width: 272px;
+    opacity: 0.4;
+}
+
+.about-photo {
+    width: 100%;
+    border-radius: 24px;
+}
+
+/* #endregion */
+/* #region tablet 768 */
+@media screen and (min-width: 768px) {
+    .about-section {
+        margin-top: -68px;
+        padding-bottom: 150px;
+    }
+
+    .about-text-box {
+        padding: 50px 32px;
+    }
+
+    .about-title {
+        max-width: 530px;
+        font-size: 48px;
+    }
+
+    .about-text-descr {
+        font-size: 23px;
+        max-width: 356px;
+    }
+
+    .about-text-offer {
+        font-size: 13px;
+        max-width: 374px;
+        line-height: 1.15;
+    }
+}
+
+/* #endregion */
+/* #region desktop 1280 */
+@media screen and (min-width: 1280px) {
+    .about-section {
+        margin-top: -34px;
+    }
+
+    .about-content {
+        border-radius: 24px;
+    }
+
+    .about-text-box {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 50px 100px 50px;
+    }
+
+    .about-title {
+        max-width: 536px;
+    }
+
+    .about-text-descr,
+    .about-text-offer {
+        max-width: 324px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .about-text-descr,
+    .about-text-offer {
+        max-width: 382px;
+    }
+
+    .about-content {
+        border-radius: 24px;
+    }
+}

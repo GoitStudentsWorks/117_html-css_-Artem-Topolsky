@@ -1,182 +1,190 @@
 .footer-general-container {
-    padding-left: 10px;
-    padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .footer-container {
-    padding: 40px 30px 20px;
-    background-color: #1b414b;
-    border-radius: 24px 24px 0 0;
-    max-width: 355px;
+  padding: 40px 30px 20px;
+  background-color: #1b414b;
+  border-radius: 24px 24px 0 0;
+  max-width: 355px;
 }
 
 .footer-nav {
-    display: flex;
-    justify-content: space-between;
-    row-gap: 80px;
-    column-gap: 37px;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-
+  display: flex;
+  justify-content: space-between;
+  row-gap: 80px;
+  column-gap: 37px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .footer-logo {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: -0.03em;
-    color: #fbfbfb;
-    text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #fbfbfb;
+  text-decoration: none;
 }
 
 .footer-buttons {
-    display: flex;
-    gap: 4px;
+  display: flex;
+  gap: 4px;
 }
 
 .footer-social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 auto;
 }
 
 .footer-nav-item {
-    display: block;
-    border-radius: 8px;
-    width: 66px;
-    height: 40px;
-    background-color: rgba(251, 251, 251, 0.3);
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 9px;
-    line-height: 1.3;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fbfbfb;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-nav-item:hover,
-.footer-nav-item:focus {
-    background-color: #fbfbfb;
-    color: #1b414b;
+  display: block;
+  border-radius: 8px;
+  width: 66px;
+  height: 40px;
+  background-color: rgba(251, 251, 251, 0.3);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .footer-team-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    fill: #fbfbfb;
-}
-
-.footer-team-icon:hover,
-.footer-team-icon:focus {
-    fill: rgba(251, 251, 251, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  fill: #fbfbfb;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-text {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #fbfbfb;
-    max-width: 260px;
-    margin: 0 auto;
-    margin-bottom: 82px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  max-width: 260px;
+  margin: 0 auto;
+  margin-bottom: 82px;
 }
 
 .footer-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .footer-bottom-text {
-    display: inline;
-    margin-right: 20px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: rgba(251, 251, 251, 0.4);
+  display: inline;
+  margin-right: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.4);
 }
 
 .footer-bottom-link {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: rgba(251, 251, 251, 0.4);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.4);
 }
 
 @media screen and (min-width: 768px) {
-    .footer-container {
-        max-width: 768px;
-    }
+  .footer-container {
+    max-width: 768px;
+  }
 
-    .footer-nav-item {
-        width: 91px;
-    }
+  .footer-nav-item {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 91px;
+  }
 
-    .footer-logo {
-        font-size: 20px;
-    }
+  .footer-logo {
+    font-size: 20px;
+  }
 
+  .footer-nav {
+    margin-bottom: 96px;
+    justify-content: space-between;
+  }
 
-    .footer-nav {
-        margin-bottom: 96px;
-        justify-content: space-between;
+  .footer-social {
+    margin: 0;
+  }
 
-    }
+  .footer-text {
+    font-size: 32px;
+    max-width: 600px;
+    margin-bottom: 99px;
+  }
 
-    .footer-social {
-        margin: 0;
-    }
+  .footer-bottom-text {
+    font-size: 14px;
+    line-height: 1.18;
+  }
+  .footer-nav-item:hover,
+  .footer-nav-item:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;
+    transform: scale(1.05);
+  }
 
-    .footer-text {
-        font-size: 32px;
-        max-width: 600px;
-        margin-bottom: 99px;
-    }
-
-    .footer-bottom-text {
-        font-size: 14px;
-        line-height: 1.18;
-    }
-
-    .footer-buttons {
-        margin-left: 0px;
-    }
+  .footer-team-icon:hover,
+  .footer-team-icon:focus {
+    fill: rgba(251, 251, 251, 0.8);
+  }
+  .footer-buttons {
+    margin-left: 0px;
+  }
+  .footer-icon {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .footer-icon:hover,
+  .footer-icon:focus {
+    transform: scale(1.5);
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .footer-container {
-        max-width: 1280px;
-    }
+  .footer-container {
+    max-width: 1280px;
+  }
 
-    .footer-nav {
-        margin-bottom: 96px;
-    }
+  .footer-nav {
+    margin-bottom: 96px;
+  }
 
-    .footer-text {
-        max-width: 650px;
-    }
+  .footer-text {
+    max-width: 650px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .footer-container {
-        max-width: 1440px;
-    }
+  .footer-container {
+    max-width: 1440px;
+  }
 }

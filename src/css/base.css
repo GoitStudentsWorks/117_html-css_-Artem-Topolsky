@@ -18,3 +18,7 @@ button {
 section {
   min-width: 375px;
 }
+
+html {
+  scroll-behavior: smooth;
+}

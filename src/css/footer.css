@@ -100,7 +100,7 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-align: center;
+  /* text-align: center; */
   color: rgba(251, 251, 251, 0.4);
 }
 
@@ -117,6 +117,15 @@
     width: 91px;
   }
 
+  .footer-bottom-link {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .footer-bottom-link:hover,
+  .footer-bottom-link:focus {
+    transform: scale(1.2);
+    color: white;
+  }
   .footer-logo {
     font-size: 20px;
   }

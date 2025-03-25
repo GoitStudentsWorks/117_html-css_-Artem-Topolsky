@@ -102,13 +102,6 @@
   color: #fbfbfb;
 }
 
-.button:hover,
-.button:focus {
-  transform: scale(1.2);
-  background: #fbfbfb;
-  color: #1b414b;
-}
-
 .pictures-rent {
   border-radius: 24px;
   object-fit: cover;
@@ -151,6 +144,12 @@
     width: 194px;
     height: 56px;
   }
+  .button:hover,
+  .button:focus {
+    transform: scale(1.2);
+    background: #fbfbfb;
+    color: #1b414b;
+  }
 }
 
 /* desk */
@@ -180,10 +179,6 @@
 
 /* desktop */
 @media screen and (min-width: 1440px) {
-  .capter {
-    margin: 0;
-  }
-
   .pictures-rent {
     display: block;
     height: 534px;

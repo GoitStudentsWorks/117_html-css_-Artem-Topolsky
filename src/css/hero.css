@@ -18,7 +18,6 @@
   background-repeat: no-repeat;
 }
 .hero-title {
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
@@ -29,7 +28,6 @@
   margin: 0 auto 24px auto;
 }
 .hero-text {
-  font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 12px;
   line-height: 1.17;
@@ -58,12 +56,7 @@
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-for-rent:hover,
-.link-for-rent:focus {
-  background-color: #fbfbfb;
-  color: #1b414b;
-  transform: scale(1.1);
-}
+
 @media screen and (min-width: 768px) {
   .hero {
     padding: 280px 0 282px;
@@ -102,12 +95,14 @@
   .mobile-menu {
     display: none;
   }
-  .hero-btn:hover,
-  .hero-btn:focus {
+  .link-for-rent:hover,
+  .link-for-rent:focus {
     background-color: #fbfbfb;
     color: #1b414b;
+    transform: scale(1.1);
   }
 }
+
 @media screen and (min-width: 1280px) {
   .hero {
     padding: 235px 0 215px;

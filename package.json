@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Here-We-Go-Again/",
+    "build": "vite build --base=/117_html-css_-Artem-Topolsky/",
     "preview": "vite preview"
   },
   "devDependencies": {
